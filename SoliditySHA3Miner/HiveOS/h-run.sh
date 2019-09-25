@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #cd `dirname $0`
-cd SoliditySHA3Miner
+cd SoliditySHA3Miner-2.2.3
 
 [ -t 1 ] && . colors
 
