@@ -4,11 +4,11 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <Version>2.2.2</Version>
-    <Authors>lwYeo</Authors>
-    <Company>lwYeo@github</Company>
-    <PackageLicenseUrl>https://github.com/lwYeo/SoliditySHA3Miner/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/lwYeo/SoliditySHA3Miner</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/lwYeo/SoliditySHA3Miner</RepositoryUrl>
+    <Authors>erc20-amis</Authors>
+    <Company>erc20-amis@github</Company>
+    <PackageLicenseUrl>https://github.com/erc20-amis/SoliditySHA3Miner/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/erc20-amis/SoliditySHA3Miner</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/erc20-amis/SoliditySHA3Miner</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <Copyright>Copyright © lwYeo 2018</Copyright>
     <StartupObject>SoliditySHA3Miner.Program</StartupObject>
@@ -88,6 +88,9 @@
     <None Update="Scripts\0xbtcSolo.bat">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
+    <None Update="Scripts\0xamisSolo.bat">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
     <None Update="ABI\CLM.abi">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
@@ -110,6 +113,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="0xLTC.abi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="0xAMIS.abi">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="ATA.abi">
