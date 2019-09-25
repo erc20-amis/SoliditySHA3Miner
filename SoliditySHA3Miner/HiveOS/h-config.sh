@@ -10,7 +10,7 @@ conf=$(jq -n \
   --arg minerJsonAPI "http://127.0.0.1:4078" \
   --arg minerCcminerAPI "127.0.0.1:4068" \
   --arg web3api "https://mainnet.infura.io/ANueYSYQTstCr2mFJjPE" \
-  --arg contractAddress "0xB6eD7644C69416d67B522e20bC294A9a9B405B31" \
+  --arg contractAddress "0xadc8b9a2f71aca30fa33fe634c656835f990d1f3" \
   --arg abiFile "0xBTC.abi" \
   --arg overrideMaxTarget "0x40000000000000000000000000000000000000000000000000000000000" \
   --arg customDifficulty 0 \
